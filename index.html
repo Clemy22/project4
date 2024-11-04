@@ -11,12 +11,13 @@
     />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    <title>Weather-app</title>
+    <title>Project4 App</title>
   </head>
   <body>
     <div class="weather-app">
       <header>
         <form class="search-form" id="search-form">
+          <label for="search-form-input" class="visually-hidden">Search</label>
           <input
             type="search"
             placeholder="Enter a city.."
@@ -42,22 +43,74 @@
           <div class="weather-app-temperature-container">
             <div id="icon"></div>
             <div class="weather-app-temperature" id="temperature"></div>
-            <div class="weatehr-app-unit">°C</div>
+            <div class="weather-app-unit">°C</div>
+          </div>
+        </div>
+        <div class="weather-forecast">
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Tue</div>
+            <div class="weather-forecast-icon">🌤️</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15º</strong>
+              </div>
+              <div class="weather-forecast-temperature">9º</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Wed</div>
+            <div class="weather-forecast-icon">🌤️</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15º</strong>
+              </div>
+              <div class="weather-forecast-temperature">9º</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Thu</div>
+            <div class="weather-forecast-icon">🌤️</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15º</strong>
+              </div>
+              <div class="weather-forecast-temperature">9º</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Fri</div>
+            <div class="weather-forecast-icon">🌤️</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15º</strong>
+              </div>
+              <div class="weather-forecast-temperature">9º</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Sat</div>
+            <div class="weather-forecast-icon">🌤️</div>
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>15º</strong>
+              </div>
+              <div class="weather-forecast-temperature">9º</div>
+            </div>
           </div>
         </div>
       </main>
 
       <footer>
         This project was coded by
-        <a href="https://github.com/clemy22/" target="_blank">
-          Clementine Mabotja</a
+        <a href="https://github.com/clemy22/" target="_blank"
+          >Clementine Mabotja</a
         >, is
         <a href="https://github.com/clemy22/project4" target="_blank"
           >open-sourced on GitHub</a
         >
         and
         <a
-          href="https://6728bfc7d4550ad4881400ea--clemy22.netlify.app//"
+          href="https://6728bfc7d4550ad4881400ea--clemy22.netlify.app/"
           target="_blank"
           >hosted on Netlify</a
         >
